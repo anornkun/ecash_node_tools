@@ -6,7 +6,7 @@
 
 
 
-    upgrade_ecash_node.sh
+    upgrade.sh
 
 Options:
 
@@ -18,7 +18,7 @@ Copy this script to the directory in which your bitcoinabc-x.xx.x directory is l
     user@hostame:~$ ll
     total 16
     drwxr-xr-x 5 user user 4096 Jan 11 12:33 bitcoin-abc-0.28.5
-    -rwxr-xr-x 1 user user 7283 Jan 11 12:33 upgrade_ecash_node.sh
+    -rwxr-xr-x 1 user user 7283 Jan 11 12:33 upgrade.sh
 
 
 
