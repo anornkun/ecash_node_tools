@@ -2,7 +2,7 @@
 
 
 
-### upgrade node version
+### upgrade node version (linux)
 
 
 
