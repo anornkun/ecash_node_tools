@@ -22,7 +22,7 @@ Copy this script to the directory in which your bitcoinabc-x.xx.x directory is l
 
 
 
-The script checks Bitcoin ABC's site for the latest linux node version, and if it is not already running, downloads and runs it, and removes the old version.
+The script checks [Bitcoin ABC's site](https://download.bitcoinabc.org/latest/linux/) for the latest linux node version, and if it is not already running, downloads and runs it, and removes the old version.
 
 
 ---
