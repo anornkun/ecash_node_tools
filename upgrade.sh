@@ -120,7 +120,7 @@ if [ "$version_old" != "none" ]; then
 		if [[ "$response" == "Y" || "$response" == "y" ]]; then
 		    echo "You chose to proceed."
 		    echo "Stopping old version $version_old"
-		    cmd="./$version_old/bin/bitcoin-cli stop"
+		    cmd="$version_old/bin/bitcoin-cli stop"
 		    eval "$cmd"
 		    echo "Stopped $version_old"
 		 else
@@ -130,7 +130,7 @@ if [ "$version_old" != "none" ]; then
 		fi
 	else # non-interactive
 		echo "Stopping old version $version_old"
-		cmd="./$version_old/bin/bitcoin-cli stop"
+		cmd="$version_old/bin/bitcoin-cli stop"
 		eval "$cmd"
 		echo "Stopped $version_old"
 	fi
@@ -160,7 +160,7 @@ rm -rf "$filename_latest"
 
 echo
 echo "Starting the node: $version_latest"
-cmd="./$version_latest/bin/bitcoind -daemon"
+cmd="$version_latest/bin/bitcoind -daemon"
 eval "$cmd"
 
 
