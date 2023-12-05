@@ -10,7 +10,7 @@
 
 Options:
 
-    -i / --interactive : run script in interactive mode
+    -i  : run script in interactive mode
 
 
 Call this script from the directory where your bitcoinabc-x.xx.x directory is located.
