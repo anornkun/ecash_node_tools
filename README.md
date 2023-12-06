@@ -4,27 +4,20 @@
 
 ### upgrade node version (linux)
 
+The script checks [Bitcoin ABC's site](https://download.bitcoinabc.org/latest/linux/) for the latest linux node version, and if it is not already running, downloads and runs it, and removes the old version.
 
+In the same directory where your bitcoin-abc-x.xx.x directory is located, run:
+
+    git clone https://github.com/anornkun/ecash_node_tools.git
 
     ecash_node_tools/upgrade.sh
+
 
 Options:
 
     -i  : run script in interactive mode
 
 
-Call this script from the directory where your bitcoinabc-x.xx.x directory is located.
-
-The script checks [Bitcoin ABC's site](https://download.bitcoinabc.org/latest/linux/) for the latest linux node version, and if it is not already running, downloads and runs it, and removes the old version.
-
-
-How to run:
-
-
-In the same directory where your bitcoin-abc-x.xx.x directory is located, run:
-
-    git clone https://github.com/anornkun/ecash_node_tools.git
-    ecash_node_tools/upgrade.sh
 
 
 ---
