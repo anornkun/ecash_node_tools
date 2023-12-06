@@ -10,6 +10,8 @@ In the same directory where your bitcoin-abc-x.xx.x directory is located, run:
 
     git clone https://github.com/anornkun/ecash_node_tools.git
 
+Then run the script:
+
     ecash_node_tools/upgrade.sh
 
 
