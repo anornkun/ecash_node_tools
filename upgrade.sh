@@ -15,6 +15,11 @@
 # License: MIT License
 # --------------------------------------------------------------------------------  
 
+# Check if required commands are available
+command -v curl >/dev/null 2>&1 || { echo >&2 "Error: curl is required but not installed. Aborting."; exit 1; }
+command -v wget >/dev/null 2>&1 || { echo >&2 "Error: wget is required but not installed. Aborting."; exit 1; }
+
+
 echo "--------------------"
 echo "Upgrading eCash node"
 echo "--------------------"
@@ -125,7 +130,6 @@ if [ "$version_old" != "none" ]; then
 		    echo "Stopped $version_old"
 		 else
 		    echo "You chose not to proceed. Exiting the script."
-		    # Add any other actions or commands you want for the 'else' case
 		    exit 1 
 		fi
 	else # non-interactive
