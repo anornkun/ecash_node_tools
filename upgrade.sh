@@ -1,6 +1,6 @@
 #!/bin/bash
 # --------------------------------------------------------------------------------  
-# Script Name: upgrade_ecash_node.sh
+# Script Name: upgrade.sh
 #
 # Description: 
 # Run this script from the same directory in which bitcoinabc-x.xx.x directory is located.
