@@ -12,7 +12,7 @@ In the same directory where your bitcoin-abc-x.xx.x directory is located, run:
 
 Then run the script:
 
-    ecash_node_tools/upgrade.sh
+    ./ecash_node_tools/upgrade.sh
 
 
 Options:
