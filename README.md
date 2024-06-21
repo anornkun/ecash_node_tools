@@ -4,7 +4,7 @@
 
 ### upgrade node version (linux)
 
-The script checks [Bitcoin ABC's site](https://download.bitcoinabc.org/latest/linux/) for the latest linux node version, and if it is not already running, downloads and runs it, and removes the old version.
+The upgrade.sh script checks [Bitcoin ABC's site](https://download.bitcoinabc.org/latest/linux/) for the latest linux node version, and if it is not already running, downloads and runs it, and removes the old version.
 
 In the same directory where your bitcoin-abc-x.xx.x directory is located, run:
 
@@ -23,7 +23,7 @@ Options:
 
 ###  automatically run script every hour
 
-The script adds an entry to the crontab scheduler to call the upgrade.sh script every hour. The node is automatically upgraded if a new version is found on the Bitcoin ABC site. Also, in the case of a server reboot, the node is restarted (to be confirmed). The output of the upgrade.sh calls is logged in ecash_node_tools/log.txt.
+The schedule.sh script adds an entry to the crontab scheduler to call the upgrade.sh script every hour. The node is automatically upgraded if a new version is found on the Bitcoin ABC site. Also, in the case of a server reboot, the node is restarted (to be confirmed). The output of the upgrade.sh calls is logged in ecash_node_tools/log.txt.
 
 run the script:
 
