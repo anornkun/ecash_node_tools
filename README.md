@@ -21,6 +21,8 @@ Options:
 
 
 
+
+
 ###  automatically run script every hour
 
 The schedule.sh script adds an entry to the crontab scheduler to call the upgrade.sh script every hour. The node will be automatically upgraded if a new version is found on the Bitcoin ABC site. Also, in the case of a server reboot, the node will be restarted (to be confirmed). The output of all  upgrade.sh calls is logged in ecash_node_tools/log.txt.
