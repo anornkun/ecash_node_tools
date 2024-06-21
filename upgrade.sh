@@ -20,9 +20,14 @@ command -v curl >/dev/null 2>&1 || { echo >&2 "Error: curl is required but not i
 command -v wget >/dev/null 2>&1 || { echo >&2 "Error: wget is required but not installed. Aborting."; exit 1; }
 
 
+echo
 echo "--------------------"
 echo "Upgrading eCash node"
 echo "--------------------"
+echo
+
+# Output the current date and time
+echo "$(date)"
 echo
 
 
@@ -123,6 +128,7 @@ if [ "$version_old" != "none" ]; then
 		read -p "Do you want to stop running your node? (y/n): " response
 
 		if [[ "$response" == "Y" || "$response" == "y" ]]; then
+                    echo
 		    echo "You chose to proceed."
 		    echo "Stopping old version $version_old"
 		    cmd="./$version_old/bin/bitcoin-cli stop"
@@ -133,6 +139,7 @@ if [ "$version_old" != "none" ]; then
 		    exit 1 
 		fi
 	else # non-interactive
+                echo
 		echo "Stopping old version $version_old"
 		cmd="./$version_old/bin/bitcoin-cli stop"
 		eval "$cmd"
@@ -178,6 +185,7 @@ if pgrep -f "bitcoind" > /dev/null; then
   # Extract the version using a regular expression
   if [[ $process_details =~ bitcoin-abc-[0-9]+\.([0-9]+\.[0-9]+) ]]; then
     version_current="${BASH_REMATCH[0]}"
+    echo
     echo "Confirming that node is currently running version: $version_current"
     if [[ $version_latest == *$version_current* ]]; then
         echo "$version_current is the latest version. All good."
