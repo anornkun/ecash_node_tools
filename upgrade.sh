@@ -20,15 +20,12 @@ command -v curl >/dev/null 2>&1 || { echo >&2 "Error: curl is required but not i
 command -v wget >/dev/null 2>&1 || { echo >&2 "Error: wget is required but not installed. Aborting."; exit 1; }
 
 
-echo
-echo "--------------------"
+echo "--------------------------------------------------------------------------------"
 echo "Upgrading eCash node"
-echo "--------------------"
-echo
+echo "--------------------------------------------------------------------------------"
 
 # Output the current date and time
 echo "$(date)"
-echo
 
 
 # --------------------------------------------------------------------------------  
@@ -54,7 +51,7 @@ done
 # --------------------------------------------------------------------------------  
 # check latest node version available on Bitcoin ABC's site
 # --------------------------------------------------------------------------------  
-echo "Checking latest available node version from Bitcoin ABC's site"
+#echo "Checking latest available node version from Bitcoin ABC's site"
 directory_listing=$(curl -s -w "%{http_code}" https://download.bitcoinabc.org/latest/linux/ -o /dev/null)
 
 # Check if the HTTP response code is 200 (success)
@@ -80,15 +77,16 @@ fi
 # extract only the version string, e.g. 'bitcoin-abc-0.28.4'
 version_latest=$(echo "$filename_latest" | sed 's/-x86\_64-linux-gnu\.tar\.gz//')
 
-echo "Latest version available at bitcoinabc: $version_latest"
+echo "Latest version:    $version_latest"
 
 
 
 # --------------------------------------------------------------------------------  
 # check which version the current node is running
 # --------------------------------------------------------------------------------  
-echo
-echo "Checking running version"
+#echo
+#echo "Checking running version"
+
 # Check if a process containing "bitcoind" is running
 if pgrep -f "bitcoind" > /dev/null; then
   # Get the process details
@@ -97,7 +95,7 @@ if pgrep -f "bitcoind" > /dev/null; then
   # Extract the version using a regular expression
   if [[ $process_details =~ bitcoin-abc-[0-9]+\.([0-9]+\.[0-9]+) ]]; then
     version_old="${BASH_REMATCH[0]}"
-    echo "This node is currently running version: $version_old"
+    echo "Currently running: $version_old"
   else
     echo "Version not found in process details"
   fi
@@ -111,8 +109,7 @@ fi
 # check if the running (old) version is the latest
 # --------------------------------------------------------------------------------  
 if [[ $version_latest == *$version_old* ]]; then
-    echo
-    echo "This node is already running the latest version. You're all good."
+    echo "Running the latest version. All good."
     exit 1
 else
     echo "Upgrading to version $version_latest"
