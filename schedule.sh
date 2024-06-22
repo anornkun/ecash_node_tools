@@ -1,4 +1,23 @@
 #!/bin/bash
+# --------------------------------------------------------------------------------  
+# Script Name: schedule.sh
+#
+# Description: 
+# This script writes an entry into crontab to call the upgrade script every hour.
+# This will automatically upgrade the node as soon as a new version is available.
+# It will also restart the node after reboot (tbc).
+#
+# List crontab entries:
+# crontab -l
+# Remove crontab file:
+# crontab -r
+# Edit crontab file:
+# crontab -e
+#
+# Author: anornkun, 2024
+# License: MIT License
+# --------------------------------------------------------------------------------  
+
 
 # Define the script to be scheduled
 SCRIPT_PATH="~/ecash_node_tools/upgrade.sh"

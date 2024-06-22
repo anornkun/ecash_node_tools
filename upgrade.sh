@@ -3,15 +3,13 @@
 # Script Name: upgrade.sh
 #
 # Description: 
-# Run this script from the same directory in which bitcoinabc-x.xx.x directory is located.
 # The script checks Bitcoin ABC's site for the latest linux node version, and if not already running,
 # downloads and runs it, and removes the old version.
 #
 # Options:
 # -i / --interactive : run script in interactive mode
 #
-# Author: Anorn 
-# Date: Dec 2023
+# Author: anornkun, 2023-2024
 # License: MIT License
 # --------------------------------------------------------------------------------  
 
