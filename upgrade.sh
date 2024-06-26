@@ -149,7 +149,7 @@ fi
 echo
 echo "Downloading latest version: $version_latest"
 url="https://download.bitcoinabc.org/latest/linux/$filename_latest"
-wget "$url"
+wget -q "$url"
 
 # Check the exit status of wget
 if [ $? -eq 0 ]; then
