@@ -24,7 +24,7 @@ Resources:
 [eCash YouTube channel](https://www.youtube.com/@eCashOfficial),
 'eCash Node Support' Telegram channel
 
-You can also run an eCash node on your own machine, but this means that you need to maintain the machine and ensure a consistent internet connection to keep your node connected.
+You can also run an eCash node on your own machine, but this means that you need to maintain the hardware and ensure a consistent internet connection to keep your node connected.
 
 If you want a simple way to earn staking rewards, there is also a [commercial service](https://ecashstaking.com/) that provides carefree eCash staking for a commission.
 
