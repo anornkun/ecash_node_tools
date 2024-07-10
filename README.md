@@ -22,7 +22,7 @@ Resources:
 [eCash page](https://e.cash/staking),
 [Cain's HOWTO guide](https://proofofwriting.com/120/),
 [eCash YouTube channel](https://www.youtube.com/@eCashOfficial),
-eCash Node Support on Telegram
+'eCash Node Support' Telegram channel
 
 It is also possible to run an eCash node on your own machine, but this means that you need to maintain the machine and ensure a consistent internet connection to keep your node connected.
 
