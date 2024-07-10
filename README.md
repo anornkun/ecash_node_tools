@@ -6,7 +6,7 @@ Your node will automatically update to the latest software version, which is pub
 
 ### What is eCash?
 
-[ECash](https://e.cash) is electronic cash for the Internet. Similar to physical cash, it can be used without any middle man, and can be sent directly from peer to peer. It works using a distributed network of computers across the world. If this sounds similar to Bitcoin, that's because eCash is a software fork of Bitcoin and has many of the great features of Bitcoin. However, it is built for higher throughput, lower transaction fees, and bulletproof security. A key feature yet to be unlocked is near-instant transaction finality, something that most blockchains lack. ECash is true electronic cash for everyone.
+[ECash](https://e.cash) is electronic cash for the Internet. Similar to physical cash, it can be used without any middle man, and can be sent directly from peer to peer. It works using a distributed network of computers across the world. If this sounds similar to Bitcoin, that's because eCash is a software fork of Bitcoin and has many of the same great features. However, it is built for higher throughput, lower transaction fees, and bulletproof security. A key feature yet to be unlocked is near-instant transaction finality, something that most blockchains lack. ECash is true electronic cash for everyone.
 
 
 ### Why run an eCash node?
