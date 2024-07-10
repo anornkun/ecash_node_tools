@@ -15,12 +15,14 @@ The eCash network benefits from distribution of nodes across the globe to ensure
 
 ### How to run an eCash node?
 
-There are a number of ways to run an eCash node: You can rent a virtual private server (VPS) and install and run the node software. This is a great way to run a node without having to worry about hardware failure or flaky home broadband.
-The eCash team has released a series of simple tutorials to get you set up. It's easy if you have some basic linux knowledge, but if you follow the steps carefully, it will require only an hour or two to get started, plus the time it takes to synchronize the node once at the beginning.
+There are a number of ways to run an eCash node: You can rent a virtual private server (VPS) to run the node software. This is an easy way to run a node without having to worry about hardware failures or a flaky network connection.
+The eCash team has released a series of tutorials to get you started. It's easy if you have some basic linux knowledge, but if you follow the steps carefully, it will require only an hour or two to get set up, plus the time it takes to synchronize the node once at the beginning.
 
 Resources: 
-[Cain's HOWTO guide](https://proofofwriting.com/120/)
-[eCash YouTube channel](https://www.youtube.com/@eCashOfficial)
+[eCash page](https://e.cash/staking),
+[Cain's HOWTO guide](https://proofofwriting.com/120/),
+[eCash YouTube channel](https://www.youtube.com/@eCashOfficial),
+eCash Node Support on Telegram
 
 It is also possible to run an eCash node on your own machine, but this means that you need to maintain the machine and ensure a consistent internet connection to keep your node connected.
 
