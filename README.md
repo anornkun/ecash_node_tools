@@ -51,7 +51,7 @@ Running an eCash node helps the network by making transactions more secure. Each
 
 There are several ways to run an eCash node:
 
-1. Rent a Virtual Private Server (VPS): This is a simple option since you don't need to worry about hardware issues or unstable network connections. The eCash team provides tutorials to help you get started. If you have basic Linux knowledge, it’s easy. Follow the steps carefully, and you can set it up in 1-2 hours, plus the initial synchronization time.
+1. Rent a Virtual Private Server (VPS): This is a simple option since you don't need to worry about hardware issues or unstable network connections. The eCash team provides tutorials to help you get started. If you have basic Linux knowledge, it’s easy. Follow the steps carefully, and you can set it up in less than an hour, plus the initial synchronization time.
 Resources: 
 [eCash page](https://e.cash/staking),
 [Cain's HOWTO guide](https://proofofwriting.com/120/),
