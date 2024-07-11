@@ -39,18 +39,19 @@ Run the script:
 
 ## What is eCash?
 
-[ECash](https://e.cash) is electronic cash for the Internet. Similar to physical cash, it can be used without any middleman, and can be sent directly from peer to peer. It works using a distributed network of computers across the world. If this sounds similar to Bitcoin, that's because eCash is a software fork of Bitcoin and has many of the same great features. However, it is built for higher throughput, lower transaction fees, and bulletproof security. A key feature yet to be unlocked is fast transaction finality, something that most blockchains lack. ECash is true electronic cash for everyone.
+[eCash](https://e.cash) is digital money for the Internet. Like regular cash, you can use eCash without banks or other middlemen. You can send it directly to other people. It works through a network of computers across the world. If this sounds like Bitcoin, that's because eCash is based on Bitcoin's software and shares many of its benefits. However, eCash is designed for faster transactions, lower fees, and strong security. A special feature coming soon is instant transaction finality, which most blockchains don't have. eCash is real electronic cash for everyone.
 
 
 ### Why run an eCash node?
 
-The eCash network benefits from distribution of nodes across the globe to ensure fast and secure transactions. Each node adds redundancy and increases the security of the network. The eCash network incentivizes running a node by paying staking rewards. At the moment this reward is set to 10% of the block reward. Note that for this you will need a minimum of 100 million eCash (ticker: XEC) at a single address (specifically, a single utxo) that has not moved for two weeks.
-Check out this [site](https://avalanche.cash/) for a visualization of the eCash network.
+Running an eCash node helps the network by making transactions more secure. Each node adds backup and boosts security. The eCash network rewards you for running a node with staking rewards. Currently, the reward is 10% of the block reward. To earn this, you need at least 100 million eCash (XEC) at one address (a single unspent transaction output or UTXO) that hasn't moved for two weeks. Visit this [site](https://avalanche.cash/) to see a visualization of the eCash network.
+
 
 ### How to run an eCash node?
 
-There are a number of ways to run an eCash node: You can rent a virtual private server (VPS) to run the node software. This is an easy way to run a node without having to worry about hardware failures or a flaky network connection.
-The eCash team has released a series of tutorials to get you started. It's easy if you have some basic linux knowledge, but if you follow the steps carefully, it will require only an hour or two to get set up, plus the time it takes to synchronize the node once at the beginning.
+There are several ways to run an eCash node:
+
+1. Rent a Virtual Private Server (VPS): This is a simple option since you don't need to worry about hardware issues or unstable network connections. The eCash team provides tutorials to help you get started. If you have basic Linux knowledge, it’s easy. Follow the steps carefully, and you can set it up in 1-2 hours, plus the initial synchronization time.
 
 Resources: 
 [eCash page](https://e.cash/staking),
@@ -58,7 +59,10 @@ Resources:
 [eCash YouTube channel](https://www.youtube.com/@eCashOfficial),
 'eCash Node Support' Telegram channel
 
-You can also run an eCash node on your own machine, but this means that you need to maintain the hardware and ensure a reliable internet connection to keep your node connected. If you want a simple way to earn staking rewards, there is also a [commercial service](https://ecashstaking.com/) that provides carefree eCash staking for a commission.
+
+2. Run on Your Own Machine: This requires you to maintain the hardware and ensure a reliable internet connection.
+
+3. Commercial Service: For a hassle-free option, use a [commercial service](https://ecashstaking.com/) that manages eCash staking for a commission.
 
 
 
