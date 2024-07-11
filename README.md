@@ -43,6 +43,7 @@ Options:
 ### Why run an eCash node?
 
 The eCash network benefits from distribution of nodes across the globe to ensure fast and secure transactions. Each node adds redundancy and increases the security of the network. The eCash network incentivizes running a node by paying staking rewards. At the moment this reward is set to 10% of the block reward. Note that for this you will need a minimum of 100 million eCash (ticker: XEC) at a single address (specifically, a single utxo) that has not moved for two weeks.
+Check out this [site](https://avalanche.cash/) for a visualization of the eCash network.
 
 ### How to run an eCash node?
 
