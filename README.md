@@ -49,7 +49,7 @@ Running an eCash node helps the network by making transactions more secure. Each
 
 ### How to run an eCash node?
 
-There are several ways to run an eCash node:
+There are different ways to run an eCash node:
 
 1. Rent a Virtual Private Server (VPS): This is a simple option since you don't need to worry about hardware issues or unstable network connections. The eCash team provides tutorials to help you get started. If you have basic Linux knowledge, it’s easy. Follow the steps carefully, and you can set it up in less than an hour, plus the initial synchronization time.
 Resources: 
@@ -61,7 +61,7 @@ Resources:
 
 2. Run on Your Own Machine: This requires you to maintain the hardware and ensure a reliable internet connection.
 
-3. Commercial Service: For a hassle-free option, use a [commercial service](https://ecashstaking.com/) that manages eCash staking for a commission.
+For a hassle-free staking option, you can also use a [commercial service](https://ecashstaking.com/) that manages eCash staking for a commission.
 
 
 
